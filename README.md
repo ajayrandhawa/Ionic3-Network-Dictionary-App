@@ -4,7 +4,7 @@ Network Dictionary App built in Ionic3 and Angular4. In this app 5000+ network t
 
 ## Getting Started
 
-1. Splash Screen
+1. IntroPage
 2. Homepage
 3. Search Bar
 4. Menu
@@ -25,7 +25,7 @@ Network Dictionary App built in Ionic3 and Angular4. In this app 5000+ network t
 
 ## App Wireframe
 
-<img src="Wireframe.png" alt="wireframe">
+<img src="sc.jpg" alt="wireframe">
 
 ## App UI
 
