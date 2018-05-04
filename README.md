@@ -29,6 +29,7 @@ Network Dictionary App built in Ionic3 and Angular4. In this app 5000+ network t
 
 ## App UI
 
+<img src="ui.jpg" alt="wireframe">
 
 ## Version
 
