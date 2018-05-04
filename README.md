@@ -33,7 +33,7 @@ Network Dictionary App built in Ionic3 and Angular4. In this app 5000+ network t
 
 ## App Running View
 
-<img src="network.gif" alt="wireframe">
+<img src="Network.gif" alt="wireframe">
 
 ## Version
 
