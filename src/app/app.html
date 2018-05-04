@@ -1,18 +1,75 @@
-<ion-menu [content]="content">
+<ion-menu [content]="content" type="overlay">
   <ion-header>
-    <ion-toolbar>
-      <ion-title>Menu</ion-title>
-    </ion-toolbar>
+    <div class="studentinfo">
+      <div  style="padding:30px; color:#ffffff; text-align:center;">
+        <img src="./assets/img/logo.png" style="width:40%; margin: auto;">
+      </div>
+   </div>
   </ion-header>
 
-  <ion-content>
-    <ion-list>
-      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
-        {{p.title}}
-      </button>
-    </ion-list>
-  </ion-content>
+  <ion-content no-padding>
+      <ion-list no-padding no-margin style="margin-top:50px;">
+          <button ion-button clear no-padding no-margin (click)="onclickHome()" menuToggle>
+              <ion-item no-lines class="menuitem">
+                <ion-icon name="ios-home" ></ion-icon>
+                &nbsp;&nbsp;
+                Home
+              </ion-item>
+          </button>
+        </ion-list>
+    
+        <ion-list no-padding no-margin>
+          <button ion-button clear no-padding no-margin (click)="onclicklinuxco()" menuToggle>
+              <ion-item no-lines class="menuitem">
+                <ion-icon name="md-document" ></ion-icon>
+                &nbsp;&nbsp;
+                Linux Commands
+              </ion-item>
+              </button>
+        </ion-list>
+    
+         <ion-list no-padding no-margin>
+           <button ion-button clear no-padding no-margin (click)="onclicklinuxint()" menuToggle>
+              <ion-item no-lines class="menuitem">
+                <ion-icon name="md-folder" ></ion-icon>
+                &nbsp;&nbsp;
+               Linux Interview
+              </ion-item>
+              </button>
+        </ion-list>
+    
+        <ion-list no-padding no-margin>
+          <button ion-button clear no-padding no-margin (click)="onclicknetworkqa()" menuToggle>
+              <ion-item no-lines class="menuitem">
+                <ion-icon name="md-briefcase" ></ion-icon>
+                &nbsp;&nbsp;
+                Networking QA
+              </ion-item>
+              </button>
+        </ion-list>
+    
+         <ion-list no-padding no-margin>
+           <button ion-button clear no-padding no-margin (click)="onclickdesktopsp()" menuToggle>
+              <ion-item no-lines class="menuitem">
+                <ion-icon name="md-construct" ></ion-icon>
+                &nbsp;&nbsp;
+               Desktop Support QA
+              </ion-item>
+              </button>
+        </ion-list>
+    
+        <ion-list no-padding no-margin>
+            <button ion-button clear no-padding no-margin (click)="onclicktechnicalsp()" menuToggle>
+               <ion-item no-lines class="menuitem">
+                 <ion-icon name="md-build" ></ion-icon>
+                 &nbsp;&nbsp;
+                Technical Support QA
+               </ion-item>
+               </button>
+         </ion-list>
 
+  </ion-content>
+  <p style="position:fixed; right:0; bottom:0; color:#777777; margin-bottom:5px;">V.1 ©Copyright Ramesh Kumar &nbsp;</p>
 </ion-menu>
 
 <!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->

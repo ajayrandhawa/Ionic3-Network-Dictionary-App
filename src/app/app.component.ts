@@ -4,7 +4,12 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
+import { LinuxcPage } from '../pages/linuxc/linuxc';
+import { LinuxintPage } from '../pages/linuxint/linuxint';
+import { NetworkqaPage } from '../pages/networkqa/networkqa';
+import { IntroPage } from '../pages/intro/intro';
+import { DesktopspPage } from '../pages/desktopsp/desktopsp';
+import { TechnicalspPage } from '../pages/technicalsp/technicalsp';
 
 @Component({
   templateUrl: 'app.html'
@@ -12,7 +17,7 @@ import { ListPage } from '../pages/list/list';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = HomePage;
+  rootPage: any = IntroPage;
 
   pages: Array<{title: string, component: any}>;
 
@@ -21,8 +26,7 @@ export class MyApp {
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'Home', component: HomePage },
-      { title: 'List', component: ListPage }
+      { title: 'Home', component: HomePage }
     ];
 
   }
@@ -36,9 +40,28 @@ export class MyApp {
     });
   }
 
-  openPage(page) {
-    // Reset the content nav to have just this page
-    // we wouldn't want the back button to show in this scenario
-    this.nav.setRoot(page.component);
+  onclickHome() {
+    this.nav.setRoot(HomePage);
   }
+
+  onclicklinuxco() {
+    this.nav.push(LinuxcPage);
+  }
+
+  onclicklinuxint(){
+    this.nav.push(LinuxintPage);
+  }
+
+  onclicknetworkqa(){
+    this.nav.push(NetworkqaPage);
+  }
+
+  onclickdesktopsp(){
+    this.nav.push(DesktopspPage);
+  }
+
+  onclicktechnicalsp(){
+    this.nav.push(TechnicalspPage);
+  }
+
 }

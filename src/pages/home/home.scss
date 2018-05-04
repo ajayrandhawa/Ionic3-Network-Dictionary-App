@@ -1,3 +1,69 @@
-page-home {
+*{
+    margin:0;
+    padding:0;
+    font-family: Ubuntu;
 
 }
+
+.toolbar-title{
+    color:#ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.toolbar-background{
+    background: #6d5795;
+}
+
+.toolbar{
+    height:60px;
+}
+
+.searchbr 
+{
+    padding:10px;
+    background: #f2f2f2;
+    
+}
+
+.searchbar-ios .searchbar-input{
+    padding:22px;
+    font-family: ubuntu;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.searchbar-ios .searchbar-search-icon{
+    width:16px;
+    height:16px;
+    margin:5px;
+    background-size: 20px;
+}
+
+.datadic{
+    font-family: ubuntu;
+    width:92%;
+    border-bottom:1px solid #807b7b;
+    padding-bottom: 15px;
+    margin:0px auto;
+}
+
+.datadic h4{
+    font-family: ubuntu;
+    color: #685f5f;
+}
+
+.datadic p{
+    font-family: ubuntu;
+    color: #807b7b;
+}
+
+page-home {
+    
+       .spinner-container {
+           width: 100%;
+           text-align: center;
+           padding: 10px;
+       }
+    
+   }

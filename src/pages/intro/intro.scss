@@ -1,0 +1,56 @@
+.bg{
+    background: #6d5795;
+}
+
+.logo{
+    color:#ffffff;
+    font-family:ubuntu;
+    font-weight:bolder;
+    font-size:25px;
+    text-align:center;
+    position: fixed;
+    top:80px;
+    left:0;
+    right:0;
+}
+
+.swiper-slide img{
+    width:40%;
+    position:relative;
+    top:50px;
+    margin: 0 auto;
+}
+
+.tx1{
+    color:#ffffff;
+    font-family:ubuntu;
+    font-weight: 500;
+    font-size:15px;
+    text-align:center;
+    position:relative;
+    top:60px;
+}
+
+.swiper-pagination-bullet {
+    background: white;
+    opacity: 0.3;
+  }
+  
+.swiper-pagination-bullet-active {
+    background: #ffffff;
+    opacity: 1;
+    }
+
+.btn{
+    position: fixed;
+    bottom: 40px;
+    width:70%;
+    left:0;
+    right:0;
+    margin: 0 auto;
+    background:#ffffff;
+    color:#6d5795;
+    font-family:ubuntu;
+    font-weight: bold;
+    font-size:20px;
+}
