@@ -1,22 +1,22 @@
 # Ionic3 & Angular4 Network Dictionary App
 
-# Network Dictionary App built in Ionic3 and Angular4. In this app 5000+ network terms, words are added and its search function searches content using angular providers from JSON file. the app has lots of another information page which provides some tech information.
+Network Dictionary App built in Ionic3 and Angular4. In this app 5000+ network terms, words are added and its search function searches content using angular providers from JSON file. the app has lots of another information page which provides some tech information.
 
 ## Getting Started
 
-1. Header
-2. Navigation Bar
-3. Content
-4. Image Styling
-5. Sections
-6. Footer
+1. Splash Screen
+2. Homepage
+3. Search Bar
+4. Menu
+5. Other Information Pages
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-1. Web Browser
-2. Notepad++
+1. Download the installer for Node.js 6 or greater.
+2. Install the ionic CLI globally: npm install -g ionic
+3. Clone this repository: git clone https://github.com/ionic-team/ionic-conference-app.git.
+4. Run npm install from the project root.
+5. Run ionic serve in a terminal from the project root.
 
 ### Installing
 
