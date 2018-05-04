@@ -12,27 +12,20 @@ Network Dictionary App built in Ionic3 and Angular4. In this app 5000+ network t
 
 ### Prerequisites
 
+1. Ionic3
+2. Angular4
+
+### Installing
+
 1. Download the installer for Node.js 6 or greater.
 2. Install the ionic CLI globally: npm install -g ionic
 3. Clone this repository: git clone https://github.com/ionic-team/ionic-conference-app.git.
 4. Run npm install from the project root.
-5. Run ionic serve in a terminal from the project root.
-
-### Installing
-
-1. Download Repo.
-2. Extract to Folder
-3. Open Index.html File in Web Browser
-
-## Built With
-
-* HTML
-* CSS
-* Javascript
+5. Run ionic serve in a terminal from the project root
 
 ## Version
 
-1.0
+2.0
 
 ## Authors
 
