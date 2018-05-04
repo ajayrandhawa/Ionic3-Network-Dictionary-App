@@ -1,26 +1,39 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+# Ionic3 & Angular4 Network Dictionary App
 
-## How to use this template
+# Network Dictionary App built in Ionic3 and Angular4. In this app 5000+ network terms, words are added and its search function searches content using angular providers from JSON file. the app has lots of another information page which provides some tech information.
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+## Getting Started
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+1. Header
+2. Navigation Bar
+3. Content
+4. Image Styling
+5. Sections
+6. Footer
 
-### With the Ionic CLI:
+### Prerequisites
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+What things you need to install the software and how to install them
 
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start mySideMenu sidemenu
-```
+1. Web Browser
+2. Notepad++
 
-Then, to run it, cd into `mySideMenu` and run:
+### Installing
 
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
+1. Download Repo.
+2. Extract to Folder
+3. Open Index.html File in Web Browser
 
-Substitute ios for android if not on a Mac.
+## Built With
 
+* HTML
+* CSS
+* Javascript
+
+## Version
+
+1.0
+
+## Authors
+
+Ajay Randhawa
