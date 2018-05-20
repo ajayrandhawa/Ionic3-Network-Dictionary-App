@@ -23,6 +23,25 @@ Network Dictionary App built in Ionic3 and Angular4. In this app 5000+ network t
 4. Run npm install from the project root.
 5. Run ionic serve in a terminal from the project root
 
+## ADD Content
+
+```
+\src\providers\data\data.ts
+
+this.items = [
+             {
+               title: " ",
+               description: " "
+            },
+
+            {
+              title: "",
+              description:""
+            }
+            ];
+            
+```
+
 ## App Wireframe
 
 <img src="sc.jpg" alt="wireframe">
